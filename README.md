@@ -1,0 +1,7 @@
+# Samsung-Chromebook-4-project
+Purpose: An overview of getting the most out of a Samsung Chromebook 4/4+
+Overview: Samsung Chromebook 4+ converted to different OS’s, including manual Device Model & Specs: Samsung Chromebook 4+, CPU N4020 | MEM 6gb LDDR4 | STO 64gb emmc 
+1.Assemble charger, precision screwdrivers, hard drive for boot, prying tool (for preserving plastic pegs that hold bottom of case in place, if pegs are broken there will be noticeable holes in bottom panel). ESD equipment is recommended 
+2. Gain access to back panel of laptop. Some screw are hidden under rubber pegs. Open panel. 3. On newer Chromebooks there is no write protection screw, there is now a software in the battery that prevents OS swaps. To bypass this use a charger while the battery is out of the system the boot into desired OS. 
+4. Deciding which OS to run. The 4/4+ is N4000/4020 | 4/6gb ram | emmc 32/64gb; so not a lot of options. Something lightweight can breathe new life into this machine.
+5. Linux distributions are highly recommended to get the most out of this device. I ran W11 as an experiment. None of the audio driver were recognized, ended up grabbing the licenses from Coolstar. The audio licenses from Coolstar did not work had to revert to W10. W10 is supported but there are some errors still in device manager, other than I would say it is an overall net-negative to convert to a windows device even W10 because of the Windows license, audio licenses, and troubleshooting involved.
