@@ -1,7 +1,109 @@
-# Samsung-Chromebook-4-project
-Purpose: An overview of getting the most out of a Samsung Chromebook 4/4+
-Overview: Samsung Chromebook 4+ converted to different OS’s, including manual Device Model & Specs: Samsung Chromebook 4+, CPU N4020 | MEM 6gb LDDR4 | STO 64gb emmc 
-1.Assemble charger, precision screwdrivers, hard drive for boot, prying tool (for preserving plastic pegs that hold bottom of case in place, if pegs are broken there will be noticeable holes in bottom panel). ESD equipment is recommended 
-2. Gain access to back panel of laptop. Some screw are hidden under rubber pegs. Open panel. 3. On newer Chromebooks there is no write protection screw, there is now a software in the battery that prevents OS swaps. To bypass this use a charger while the battery is out of the system the boot into desired OS. 
-4. Deciding which OS to run. The 4/4+ is N4000/4020 | 4/6gb ram | emmc 32/64gb; so not a lot of options. Something lightweight can breathe new life into this machine.
-5. Linux distributions are highly recommended to get the most out of this device. I ran W11 as an experiment. None of the audio driver were recognized, ended up grabbing the licenses from Coolstar. The audio licenses from Coolstar did not work had to revert to W10. W10 is supported but there are some errors still in device manager, other than I would say it is an overall net-negative to convert to a windows device even W10 because of the Windows license, audio licenses, and troubleshooting involved.
+# Samsung Chromebook 4 / 4+ Project
+ 
+## Purpose
+ 
+Notes and findings from converting a Samsung Chromebook 4+ to alternative operating systems. This project is mainly focused on extending the life of low-end Chromebook hardware through Linux and Windows installations.
+ 
+Test Device
+ 
+**Samsung Chromebook 4+**
+ 
+- Intel Celeron N4020
+- 6GB LPDDR4 RAM
+- 64GB eMMC Storage
+ 
+---
+ 
+Tools Required
+ 
+- Charger
+- Precision screwdriver set
+- Plastic prying tool
+- USB drive for installation media
+- ESD protection (recommended)
+ 
+A prying tool is recommended to avoid breaking the plastic clips that hold the bottom cover in place.
+ 
+---
+ 
+Disassembly
+ 
+1. Power off the Chromebook.
+2. Remove all bottom screws (some may be hidden under the rubber feet).
+3. Carefully remove the bottom cover.
+4. Disconnect the battery if needed.
+ 
+---
+ 
+Write Protection
+ 
+Unlike older Chromebooks, newer models typically do not use a write-protection screw.
+ 
+On my Chromebook 4+, I was able to bypass write protection by:
+ 
+1. Disconnecting the battery.
+2. Connecting the charger.
+3. Booting on AC power only.
+4. Proceeding with firmware and OS modifications.
+ 
+**Use caution when modifying firmware. There is always a risk of bricking the device.**
+ 
+---
+ 
+Operating System Options
+ 
+### Linux
+ 
+Linux is easily the best option for this hardware.
+ 
+Tested or recommended distributions:
+ 
+- Linux Mint XFCE
+- Lubuntu
+- Xubuntu
+- Debian XFCE
+- MX Linux
+ 
+Pros:
+ 
+- Better performance
+- Lower memory usage
+- No licensing costs
+- Better use of limited storage
+ 
+**Recommendation: Yes**
+ 
+### Windows 11
+ 
+Installed as an experiment.
+ 
+Issues encountered:
+ 
+- Audio drivers not detected
+- Coolstar audio packages did not work on my unit
+- Higher resource usage
+- More troubleshooting than it was worth
+ 
+**Recommendation: No**
+ 
+### Windows 10
+ 
+More usable than Windows 11.
+ 
+Issues encountered:
+ 
+- Unknown devices still present in Device Manager
+- Driver troubleshooting required
+- Audio support may vary
+ 
+Usable for basic tasks, but still not ideal.
+ 
+**Recommendation: Only if you need Windows**
+ 
+---
+ 
+## Final Thoughts
+ 
+The Chromebook 4/4+ is limited by its N4000/N4020 processor, small amount of RAM, and eMMC storage, but it is still perfectly usable for web browsing, office work, programming, and general daily tasks.
+ 
+If you're considering an OS conversion, a lightweight Linux distribution provides the best overall experience with the least amount of troubleshoo
