@@ -8,8 +8,8 @@ Notes and findings from converting a Samsung Chromebook 4+ to alternative operat
 
 **Samsung Chromebook 4+**
 
-- Intel Celeron N4020
-- 6GB LPDDR4 RAM
+- Intel Celeron N4000
+- 4GB LPDDR4 RAM
 - 64GB eMMC Storage
 
 ---
